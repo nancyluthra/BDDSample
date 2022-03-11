@@ -69,6 +69,7 @@ public class CRMStepDef {
 	public void setupDBSmoke()
 	{
 		System.out.println("Before each set1....");
+		System.out.println("Before each set2....");
 	}
 	
 	@Before(value="@SmokeTest",order=1)
